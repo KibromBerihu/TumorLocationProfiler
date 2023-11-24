@@ -5,5 +5,5 @@ The article related to this repository is currently under peer-review. The code 
 
 Coming soon ..... Stay tuned !
 
-# TumorLocationReferencer
+# TumorLocationProfiler
 
