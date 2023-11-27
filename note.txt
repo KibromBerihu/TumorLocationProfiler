@@ -1,0 +1,8 @@
+Create directory and change to that directory
+mkdir
+git --version
+git init
+ls -a > list all hidden files
+git status 
+git add  > add files to the staging area  (copy from working directory to the staging area)
+git reset > to not add the foder onto the staging area 
