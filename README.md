@@ -12,7 +12,7 @@ We developed an AI-powered framework to characterize tumor location in relation 
 A post-processing was developed to ensure the quality of the spleen segmentation.-->
 
 Initially, we employed a publicly available AI model, ![TotalSegmentator](https://github.com/wasserth/TotalSegmentator), to automatically segment the spleen from baseline CT images. 
-Subsequently, a post-processing method was developed to ensure the quality of the spleen segmentation, as ### quality control.
+Subsequently, a post-processing method was developed to ensure the quality of the spleen segmentation, as **quality control**.
 
 
 Second, the tumor locations delineated by experts on baseline PET/CT images were overlapped with the spleen segmentations. Following this, new biomarkers were calculated to characterize the tumor's location relative to the spleen.
@@ -22,7 +22,7 @@ The age-adjusted international prognostic index (IPI) was provided. A comparison
 
 The added predictive values of the new biomarkers when they are integrated into a Cox model on the basis of TMTV, IPI, or TMTV combined with IPI were analyzed. Interestingly, their predictive power of the PFS and OS consistently and significantly improved.
 
-Good news; It signifies that the new biomarkers provide complementary information to both IPI and TMTV.
+**Good news**; It signifies that the new biomarkers provide complementary information to both IPI and TMTV.
 
 
 
@@ -36,7 +36,7 @@ please refer to the paper for details and cite the paper if you use this for you
 - [Summary](#introduction)
 - [Table of Contents](#table-of-contents)
 - [ Required folder structure](#-required-folder-structure)
-- [Installation](#-installation)
+- [Installation](#installation)
 - [Citations](#-citations)
 - [Acknowledgements](#-acknowledgments)
 
@@ -86,6 +86,8 @@ A typical data directory might look like:
     - Alternatively:
       1. go to https://github.com/KibromBerihu/TumorLocationProfiler.git >> [Code] >> Download ZIP file.
                
+To use the TotalSegmentator follow [jupyter notebook.](./totalsegmentator/TotalSegmentator.ipynb) and [TotalSegmentator documentation](https://github.com/wasserth/TotalSegmentator)
+To extract the biomarkers follow [jupyter notebook.](./features_extractor/spleen_based_features_extraction.ipynb)
 
 ## 📖 Citations 
 Please cite the following papers if you use this package for your research:
