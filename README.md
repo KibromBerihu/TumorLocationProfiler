@@ -85,8 +85,10 @@ A typical data directory might look like:
    
     - Alternatively:
       1. go to https://github.com/KibromBerihu/TumorLocationProfiler.git >> [Code] >> Download ZIP file.
+      
                
 To use the TotalSegmentator follow [jupyter notebook.](./totalsegmentator/TotalSegmentator.ipynb) and [TotalSegmentator documentation](https://github.com/wasserth/TotalSegmentator)
+
 To extract the biomarkers follow [jupyter notebook.](./features_extractor/spleen_based_features_extraction.ipynb)
 
 ## 📖 Citations 
