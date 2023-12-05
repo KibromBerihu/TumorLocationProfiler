@@ -8,8 +8,8 @@
 
 ***Introduction:***
 We developed an AI-powered framework to characterize tumor location in relation to a reference organ on baseline whole-body PET/CT images.
-<! Briefly, first, we used a publicly available AI model called ![TotalSegmentator](https://github.com/wasserth/TotalSegmentator), to automatically segment the spleen from baseline CT images.
-A post-processing was developed to ensure the quality of the spleen segmentation.>
+<!-- Briefly, first, we used a publicly available AI model called ![TotalSegmentator](https://github.com/wasserth/TotalSegmentator), to automatically segment the spleen from baseline CT images.
+A post-processing was developed to ensure the quality of the spleen segmentation.-->
 
 Initially, we employed a publicly available AI model, ![TotalSegmentator](https://github.com/wasserth/TotalSegmentator), to automatically segment the spleen from baseline CT images. 
 Subsequently, a post-processing method was developed to ensure the quality of the spleen segmentation, as ### quality control.
