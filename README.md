@@ -1,25 +1,28 @@
 # TumorLocationProfiler
 
-## under construction .....
+### under construction .....
 
-## *TumorLocationProfiler: An AI-poweered characterization of tumor locations relative to a reference organ.*
+
+### *TumorLocationProfiler: An AI-poweered characterization of tumor locations relative to a reference organ.*
+
 
 ***Introduction:***
 We developed an AI-powered framework to characterize tumor location in relation to a reference organ on baseline whole-body PET/CT images.
-Briefly, first, we used a publicly available AI model called ![TotalSegmentator](https://github.com/wasserth/TotalSegmentator), to automatically segment the spleen from baseline CT images.
-A post-processing was developed to ensure the quality of the spleen segmentation.
+<! Briefly, first, we used a publicly available AI model called ![TotalSegmentator](https://github.com/wasserth/TotalSegmentator), to automatically segment the spleen from baseline CT images.
+A post-processing was developed to ensure the quality of the spleen segmentation.>
 
 Initially, we employed a publicly available AI model, ![TotalSegmentator](https://github.com/wasserth/TotalSegmentator), to automatically segment the spleen from baseline CT images. 
-Subsequently, a post-processing method was developed to ensure the quality of the spleen segmentation.
+Subsequently, a post-processing method was developed to ensure the quality of the spleen segmentation, as ### quality control.
 
 
 Second, the tumor locations delineated by experts on baseline PET/CT images were overlapped with the spleen segmentations. Following this, new biomarkers were calculated to characterize the tumor's location relative to the spleen.
 
-In addition to the new biomarkers, we calculated other known biomarkers such as the dissemination (Dmax)(the distance between two farthest lesions), the distance between the largest lesion and another lesion (Dbulk), and total metabolic tumor volume (TMTV) were also calculated.
+In addition to the new biomarkers, we calculated other known biomarkers such as the dissemination (Dmax) (the distance between two farthest lesions), the distance between the largest lesion and another lesion (Dbulk), and total metabolic tumor volume (TMTV) were also calculated.
 The age-adjusted international prognostic index (IPI) was provided. A comparison between all features in terms of their predictive power of the progression-free and overall survival (PFS and OS, respectively) was calculated.
 
 The added predictive values of the new biomarkers when they are integrated into a Cox model on the basis of TMTV, IPI, or TMTV combined with IPI were analyzed. Interestingly, their predictive power of the PFS and OS consistently and significantly improved.
- # Good news; It signifies that the new biomarkers provide complementary information to both IPI and TMTV.
+
+Good news; It signifies that the new biomarkers provide complementary information to both IPI and TMTV.
 
 
 
@@ -27,23 +30,15 @@ The added predictive values of the new biomarkers when they are integrated into 
 
 *Figure 1: graphical abstract of the proposed framework to characterize tumor location relative to a reference organ.*
 
-
-
-
-Please refer to the paper for details and cite the paper if you use LFBNet for your research. 
-
-
-
 please refer to the paper for details and cite the paper if you use this for your research. 
 
 ### Table of contents  
 - [Summary](#introduction)
 - [Table of Contents](#table-of-contents)
 - [ Required folder structure](#-required-folder-structure)
+- [Installation](#-installation)
 - [Citations](#-citations)
 - [Acknowledgements](#-acknowledgments)
-
-
 
 
 
