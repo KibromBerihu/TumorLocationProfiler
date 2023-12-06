@@ -20,7 +20,7 @@ the lesion spread (**SpreadSpleen**). We calculated the maximum distance between
 
 ![flow-digaram](https://github.com/KibromBerihu/TumorLocationProfiler/blob/main/images/graphical-abstract.png)
 
-*Figure 1: graphical abstract of the proposed framework to characterize tumor location relative to a reference organ. ![Kaplan-Meier survival analysis](https://lifelines.readthedocs.io/en/latest/Survival%20analysis%20with%20lifelines.html) of the overall and progression-free survival (OS and PFS respectively) are shown for both Dspleen and SpreadSpleen.*
+*Figure 1: graphical abstract of the proposed framework to characterize tumor location relative to a reference organ. [Kaplan-Meier survival analysis](https://lifelines.readthedocs.io/en/latest/Survival%20analysis%20with%20lifelines.html) of the overall and progression-free survival (OS and PFS respectively) are shown for both Dspleen and SpreadSpleen.*
 
 
 In addition to the new biomarkers, other known biomarkers such as the dissemination (Dmax) (the distance between two farthest lesions), the distance between the largest lesion and another lesion (Dbulk), and total metabolic tumor volume (TMTV) were also calculated.
@@ -31,7 +31,7 @@ The added predictive values of the new biomarkers when they are integrated into 
 **Good news**; It signifies that the new biomarkers provide complementary information to both IPI and TMTV.
 
 
-please refer to the ![paper](https://hal.science/hal-04305558/document) for details and cite it if you use this for your research. 
+please refer to the [paper](https://hal.science/hal-04305558/document) for details and cite it if you use this for your research. 
 
 ### Table of contents  
 - [Summary](#introduction)
