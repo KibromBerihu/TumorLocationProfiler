@@ -3,6 +3,7 @@
 
 ### *TumorLocationProfiler: An AI-powered characterization of tumor locations relative to a reference organ.*
 
+  This project is **still under development**
 
 ***Introduction:***
 We developed an AI-powered framework to characterize tumor location in relation to a reference organ on baseline whole-body PET/CT images.
@@ -13,7 +14,7 @@ Initially, we employed a publicly available AI model, ![TotalSegmentator](https:
 Subsequently, a post-processing method was developed to ensure the quality of the spleen segmentation, as **quality control**.
 
 
-Second, the tumor locations delineated by experts on baseline PET/CT images were overlapped with the spleen segmentations. Following this, new biomarkers were calculated to characterize the tumor's location relative to the spleen. 
+Second, the tumor locations identified and delineated by experts on baseline PET/CT images were overlapped with the spleen segmentations. Following this, new biomarkers were calculated to characterize the tumor's location relative to the spleen. 
 The new biomarkers are shown in **Figure 1**. Specifically, we systematically measured the distance between the centroid of the spleen and all other lesions, defining the standard deviation (SD) of these distances as
 the lesion spread (**SpreadSpleen**). We calculated the maximum distance between the spleen and another lesion (**Dspleen**) for each patient.
 
@@ -23,14 +24,14 @@ the lesion spread (**SpreadSpleen**). We calculated the maximum distance between
 
 
 In addition to the new biomarkers, other known biomarkers such as the dissemination (Dmax) (the distance between two farthest lesions), the distance between the largest lesion and another lesion (Dbulk), and total metabolic tumor volume (TMTV) were also calculated.
-The age-adjusted international prognostic index (IPI) was provided. A comparison between all features in terms of their predictive power of the progression-free and overall survival (PFS and OS, respectively) was calculated.
+The age-adjusted international prognostic index (IPI) was provided. The predictive power of all features in terms of the progression-free and overall survival (PFS and OS, respectively) was calculated.
 
 The added predictive values of the new biomarkers when they are integrated into a Cox model on the basis of TMTV, IPI, or TMTV combined with IPI were analyzed. Interestingly, their predictive power of the PFS and OS consistently and significantly improved.
 
 **Good news**; It signifies that the new biomarkers provide complementary information to both IPI and TMTV.
 
 
-please refer to the paper for details and cite the paper if you use this for your research. 
+please refer to the ![paper](https://hal.science/hal-04305558/document) for details and cite it if you use this for your research. 
 
 ### Table of contents  
 - [Summary](#introduction)
@@ -94,7 +95,9 @@ To extract the biomarkers follow [jupyter notebook.](./features_extractor/spleen
 ## 📖 Citations 
 Please cite the following papers if you use this package for your research:
 ```
-Girum KB, Cottereau A-S, et al. Tumor location relative to the spleen is a prognostic factor in lymphoma patients: a demonstration from the REMARC trial
+Girum, KB, et al. "Tumor location relative to the spleen is a prognostic factor in lymphoma patients: a demonstration from the REMARC trial" The Journal of Nuclear Medicine (2023).
+
+Wasserthal, Jakob, et al. "Totalsegmentator: Robust segmentation of 104 anatomic structures in ct images." Radiology: Artificial Intelligence 5.5 (2023).
 ```
 
 ## 🙏 Acknowledgments
