@@ -10,7 +10,7 @@ We developed an AI-powered framework to characterize tumor location in relation 
 <!-- Briefly, first, we used a publicly available AI model called ![TotalSegmentator](https://github.com/wasserth/TotalSegmentator), to automatically segment the spleen from baseline CT images.
 A post-processing was developed to ensure the quality of the spleen segmentation.-->
 
-Initially, we employed a publicly available AI model, ![TotalSegmentator](https://github.com/wasserth/TotalSegmentator), to automatically segment the spleen from baseline CT images. 
+Initially, we employed a publicly available AI model, [TotalSegmentator](https://github.com/wasserth/TotalSegmentator), to automatically segment the spleen from baseline CT images. 
 Subsequently, a post-processing method was developed to ensure the quality of the spleen segmentation, as **quality control**.
 
 
@@ -88,7 +88,7 @@ A typical data directory might look like:
       1. go to https://github.com/KibromBerihu/TumorLocationProfiler.git >> [Code] >> Download ZIP file.
       
                
-To use the TotalSegmentator follow [jupyter notebook.](./totalsegmentator/TotalSegmentator.ipynb) and [TotalSegmentator documentation](https://github.com/wasserth/TotalSegmentator)
+To use the TotalSegmentator follow [jupyter notebook.](./totalsegmentator/TotalSegmentator.ipynb) and **TotalSegmentator** [documentation](https://github.com/wasserth/TotalSegmentator)
 
 To extract the biomarkers follow [jupyter notebook.](./features_extractor/spleen_based_features_extraction.ipynb)
 
