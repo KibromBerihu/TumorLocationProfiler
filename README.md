@@ -90,7 +90,7 @@ A typical data directory might look like:
                
 To use the TotalSegmentator follow [jupyter notebook.](./totalsegmentator/TotalSegmentator.ipynb) and **TotalSegmentator** [documentation](https://github.com/wasserth/TotalSegmentator)
 
-To extract the biomarkers follow [jupyter notebook.](./features_extractor/spleen_based_features_extraction.ipynb)
+To extract the biomarkers follow [jupyter notebook.](./feature_extractor/spleen_based_features_extraction.ipynb)
 
 ## 📖 Citations 
 Please cite the following papers if you use this package for your research:
