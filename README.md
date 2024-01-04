@@ -1,7 +1,7 @@
 # TumorLocationProfiler
 
 
-### *TumorLocationProfiler: An AI-powered characterization of tumor locations relative to a reference organ.*
+### *TumorLocationProfiler: An AI-powered characterization of tumor locations relative to a reference organ. Paper [here](https://jnm.snmjournals.org/content/early/2023/12/07/jnumed.123.266322).*
 
   This project is **still under development**
 
@@ -31,7 +31,7 @@ The added predictive values of the new biomarkers when they are integrated into 
 **Good news**; It signifies that the new biomarkers provide complementary information to both IPI and TMTV.
 
 
-please refer to the [paper](https://hal.science/hal-04305558/document) for details and cite it if you use this for your research. 
+please refer to the [paper](https://jnm.snmjournals.org/content/early/2023/12/07/jnumed.123.266322) for details and cite it if you use this for your research. 
 
 ### Table of contents  
 - [Summary](#introduction)
