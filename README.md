@@ -1,7 +1,7 @@
 # TumorLocationProfiler
 
 
-### *TumorLocationProfiler: An AI-powered characterization of tumor locations relative to a reference organ. Paper [here](https://jnm.snmjournals.org/content/early/2023/12/07/jnumed.123.266322).*
+### *TumorLocationProfiler: An AI-powered characterization of tumor locations relative to a reference organ. [Paper here](https://jnm.snmjournals.org/content/early/2023/12/07/jnumed.123.266322).*
 
   This project is **still under development**
 
